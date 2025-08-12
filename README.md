@@ -1,4 +1,4 @@
-# Cognitive Prompt Engineering Framework 
+# Cognitive Prompt Engineering Framework
 
 A systematic approach to enhancing AI reasoning capabilities through computational verification and intellectual rigor protocols.
 
@@ -22,7 +22,7 @@ The framework's key innovation is the **Logical Coprocessor Protocol** - automat
 
 ## Key Components
 
-### 1. Elite Professional Output Protocol 2.0 - EPOP
+### 1. Elite Professional Output Protocol 2.0
 - Assumes maximum user intelligence and domain knowledge
 - Eliminates performative elements (emojis, decorative formatting)
 - Focuses on substance over superficial style
@@ -64,18 +64,91 @@ This framework emphasizes:
 - **Boundary exploration** as methodology for deeper understanding
 - **Computational verification** of logical processes
 
-## Implementation
+## How to Use
 
-### Quick Start (Compact Version)
-Copy the content from `protocol-compact.md` into your system prompt. This version preserves core functionality while using ~70% fewer tokens.
+### Claude (Anthropic)
 
-### Full Implementation
-Use `protocol-full.md` for comprehensive documentation and detailed implementation guidance.
+**Recommended: Project Instructions (Full Features)**
+1. In Claude, create a new project or select existing project
+2. Go to "Project Instructions"
+3. Paste the full protocol from `protocol-full.md` or `protocol-compact.md`
+4. **Full logical coprocessor functionality** - JavaScript analysis tool with lodash, papaparse libraries
+5. **Artifacts integration** - Interactive applications with AI-powered capabilities
 
-### Writer Mode Usage
-- For articles/essays: Start prompts with "write article about..." or "create essay on..."
-- For thought pieces: Use "write personal essay..." or "create thought piece..."
-- Manual activation: `Maestro Protocol:` or `Auteur Protocol:`
+**Alternative: API with Code Execution (Beta)**
+1. Use API with code execution tool in secure Python sandbox environment
+2. **Advanced capabilities** - File uploads, data visualization, container persistence
+
+### ChatGPT (OpenAI)
+
+**Custom Instructions + Advanced Data Analysis**
+1. Go to ChatGPT settings → "Customize ChatGPT" → "Custom Instructions"
+2. Paste protocol content from `protocol-compact.md` in the "How would you like ChatGPT to respond?" section
+3. **Full logical coprocessor support** - Advanced Data Analysis (formerly Code Interpreter) runs Python in secure sandbox with pandas, matplotlib, numpy
+4. **Canvas integration** - Real-time collaborative coding with Python execution and HTTP requests
+5. **File upload capabilities** - Upload data files for analysis and visualization
+
+**Projects (Team/Enterprise)**
+1. Create new project and add protocol to project instructions
+2. Enhanced capabilities for team collaboration
+
+### Google Gemini
+
+**Gems (Custom AI Assistants) + Code Execution**
+1. Go to gemini.google.com
+2. Click "Explore Gems" → "New Gem"
+3. Name your Gem and paste protocol from `protocol-compact.md`
+4. **Enable code execution** in Tools panel for logical coprocessor functionality
+5. **Full analytical capabilities** - Python sandbox with NumPy, SymPy, Matplotlib, Pandas, scikit-learn
+6. Iterative learning from code execution results
+7. Use preview feature to test before saving
+
+**API/Vertex AI (System Instructions + Code Execution)**
+1. Use `systemInstruction` parameter + `tools: [{"code_execution": {}}]` in API calls
+2. Paste protocol content as system instruction
+3. **Full logical coprocessor support** through Python code execution
+4. Real-time computational verification and data analysis
+
+### DeepSeek
+
+**API Integration (OpenAI-Compatible)**
+1. Get API key from platform.deepseek.com
+2. Use OpenAI SDK with DeepSeek base URL: "https://api.deepseek.com"
+3. **Important limitation**: DeepSeek-R1 works best with "No system prompt: Avoid adding a system prompt; all instructions should be contained within the user prompt"
+4. Include protocol content in each conversation rather than as persistent system instructions
+5. **Specialized models** - DeepSeek-Coder-V2 with 338 programming languages, 128K context
+6. **Cost-effective** - Context caching can reduce costs by ~75%
+
+**Local Installation (Advanced)**
+1. Install via Ollama: `ollama run deepseek-r1:7b`
+2. Available sizes: 1.5b, 7b, 8b, 14b, 32b, 70b, 671b
+3. Hardware requirements vary by model size
+4. **No built-in code execution** - Core intellectual rigor protocols only
+
+### Other Platforms
+
+**General System Prompt Usage**
+- Copy content from `protocol-compact.md` 
+- Paste into system prompt or instruction field
+- Functionality limited by platform's tool integration capabilities
+- Core principles (authenticity, intellectual rigor) remain intact
+
+## Feature Comparison by Platform
+
+| Feature | Claude Project | Claude API + Code Exec | ChatGPT ADA + Canvas | Gemini Gems + Code Exec | DeepSeek API | Other Platforms |
+|---------|-----------------|------------------------|----------------------|------------------------|--------------|----------------|
+| Logical Coprocessor | ✅ Full (JS) | ✅ Full (Python) | ✅ Full (Python + Web) | ✅ Full (Python) | ❌ None | ❌ None |
+| Authenticity Protocols | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Writer Mode Switches | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Boundary Exploration | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ Limited |
+| Computational Verification | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Data Visualization | ✅ | ✅ (Matplotlib) | ✅ (Matplotlib) | ✅ (Matplotlib) | ❌ | ❌ |
+| Scientific Computing | ⚠️ Basic | ✅ (NumPy, SciPy) | ✅ (NumPy, Pandas) | ✅ (NumPy, SymPy) | ❌ | ❌ |
+| Network Access | ❌ | ❌ | ✅ (HTTP APIs) | ❌ | ❌ | ❌ |
+| File Processing | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Persistent Instructions | ✅ | ✅ | ✅ | ✅ | ❌ (per-conversation) | ✅ |
+
+**Note**: Four major platforms now support full logical coprocessor functionality: Claude (JavaScript + Python), ChatGPT (Python + Web), Gemini (Python), and DeepSeek (specialized coding but no execution environment).
 
 ## Research Foundation
 
